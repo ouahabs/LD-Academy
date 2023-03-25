@@ -9,6 +9,13 @@ import (
 	"github.com/go-sql-driver/mysql"
 )
 
+type Album struct {
+	ID     int64
+	Title  string
+	Artist string
+	Price  float32
+}
+
 var db *sql.DB
 
 func main() {
@@ -33,6 +40,12 @@ func main() {
 		log.Fatal(pingErr)
 	}
 	fmt.Println("Connected!")
+
+	albums, err := albumsByArtist("John Coltrane")
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Albums found: %v\n", albums)
 }
 
 // albumsByArtist queries for albums that have the specified artist name.
