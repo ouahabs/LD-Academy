@@ -41,12 +41,14 @@ func main() {
 	}
 	fmt.Println("Connected!")
 
+	// Testing for albumsByArtist
 	albums, err := albumsByArtist("John Coltrane")
 	if err != nil {
 		log.Fatal(err)
 	}
 	fmt.Printf("Albums found: %v\n", albums)
 
+	// Testing for albumByID
 	// Hard-code ID 2 here to test the query.
 	alb, err := albumByID(2)
 	if err != nil {
@@ -54,6 +56,7 @@ func main() {
 	}
 	fmt.Printf("Album found: %v\n", alb)
 
+	// Testing for addAlbum
 	albID, err := addAlbum(Album{
 		Title:  "The Modern Sound of Betty Carter",
 		Artist: "Betty Carter",
