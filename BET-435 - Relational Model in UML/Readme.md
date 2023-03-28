@@ -1,6 +1,6 @@
 Language: /
 Frameworks: /
-Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-435%20-%20Relational%20Model%20DB%20in%20UML
+Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-435%20-%20Relational%20Model%20in%20UML
 
 Task details:
 > Understand and study how to design relational databases using UML.
