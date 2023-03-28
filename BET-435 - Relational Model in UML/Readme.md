@@ -7,7 +7,7 @@ Task details:
 > Study in depth this link => `https://sparxsystems.com/downloads/whitepapers/Database_Modeling_In_UML.pdf`
 > super important to design first the logical model and then understand what's the translation to physical model
 
-## Introduction
+# Introduction
 * All vendors have their own solutions for software systems, which results in incompatibility.
 * An object oriented class model (UML) on top of a relational database
 * An entity is a class or an object
