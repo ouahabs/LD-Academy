@@ -1,6 +1,6 @@
 Language: /
 Frameworks: /
-Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-435%20-%20Relational%20Model%20DB%20in%20UML
+Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-434%20-%20ORM
 
 Task details:
 > Study what an ORM is and why you should is it:
