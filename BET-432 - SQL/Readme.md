@@ -1,5 +1,5 @@
-Language: SQL
-Frameworks: PostgreSQL (DBMS)
+Language: SQL  
+Frameworks: PostgreSQL (DBMS)  
 Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-432%20-%20SQL
 
 Task details:
