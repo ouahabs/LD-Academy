@@ -1,3 +1,5 @@
+# BET-432 - SQL
+
 Language: SQL  
 Frameworks: PostgreSQL (DBMS)  
 Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-432%20-%20SQL

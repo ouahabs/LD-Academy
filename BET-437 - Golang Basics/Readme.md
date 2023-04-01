@@ -1,3 +1,10 @@
+# BET-437 - Golang Basics
+
+Language: Go  
+Frameworks: Gin (Go)  
+Task code: https://github.com/ouahabs/LD-Academy/tree/master/BET-437%20-%20Golang%20Basics  
+
+Task details:  
 Goals: 
   - Understand the basics of Go.
   - Apply that knowledge to create a simple CLI program.
